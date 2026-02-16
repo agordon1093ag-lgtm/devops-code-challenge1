@@ -7,3 +7,14 @@ terraform/terraform.tfstate.backup
 
 # Node dependencies
 **/node_modules/
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.*
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
