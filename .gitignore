@@ -1,3 +1,6 @@
-
-# Ignore dependencies
-**/node_modules/
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
