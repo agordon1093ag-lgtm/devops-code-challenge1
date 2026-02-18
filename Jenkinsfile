@@ -1,6 +1,10 @@
 pipeline {
   agent any
 
+   triggers {
+        githubPush()
+    }
+
   environment {
     AWS_REGION    = 'us-east-2'
     AWS_ACCOUNT   = '740838937919'

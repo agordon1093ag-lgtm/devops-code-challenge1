@@ -1,0 +1,33 @@
+DEVOPS CODE CHALLENGE - SUBMISSION INFORMATION
+==============================================
+
+JENKINS INFORMATION
+-------------------
+Jenkins URL: http://3.136.83.125:8080
+Jenkins Credentials: [Your Jenkins username/password or note authentication method]
+  - If using GitHub OAuth, note that
+  - If using admin password, include it
+
+APPLICATION URLS
+----------------
+Frontend Application: http://devops-challenge-alb-1281915073.us-east-2.elb.amazonaws.com
+Backend API: http://devops-challenge-alb-1281915073.us-east-2.elb.amazonaws.com/api/
+
+GITHUB REPOSITORY
+-----------------
+Repository URL: https://github.com/agordon1093ag-lgtm/devops-code-challenge1
+Repository is: Private
+
+LOAD TEST SUMMARY
+-----------------
+- 250 concurrent users for 60 seconds
+- 11,831 transactions with 99.99% availability
+- Average response time: 200ms
+- Auto-scaling configured: Min=1, Max=4, CPU target=50%
+- Scaling observation: CPU remained below threshold, no scaling triggered
+
+ADDITIONAL NOTES
+----------------
+- All pipeline stages working successfully
+- Webhook configured and triggering builds
+- Application displays SUCCESS message with random ID
